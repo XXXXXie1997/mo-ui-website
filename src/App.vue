@@ -1,17 +1,18 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <mo-button>button</mo-button>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import {Button} from 'mo-ui-beta'
+import 'mo-ui-beta/dist/index.css'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    'mo-button':Button,
   }
 }
 </script>
