@@ -1,24 +1,3 @@
-# mo-ui-website
+# mo-ui-官网
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+没什么能说的，第一次尝试制作官网，日志看情况更新。
