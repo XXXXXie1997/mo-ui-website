@@ -1,5 +1,7 @@
 <template>
-    <div class="button"></div>
+    <div class="install">
+        install
+    </div>
 </template>
 
 <script lang='js'>
