@@ -1,5 +1,9 @@
 <template>
-    <div class="start">开始</div>
+    <div class="start">
+        <h1>如何使用</h1>
+        <br>
+
+    </div>
 </template>
 
 <script lang='js'>
