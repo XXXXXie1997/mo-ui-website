@@ -8,11 +8,7 @@
                             <img src="./logo/logo.png">
                         </router-link>
                     </mo-col>
-                    <mo-col span="18"></mo-col>
-                    <mo-col span="2">
-
-
-                    </mo-col>
+                    <mo-col span="20"></mo-col>
                 </mo-row>
             </mo-header>
             <mo-layout>
@@ -66,9 +62,9 @@
                 </mo-layout>
             </mo-layout>
         </mo-layout>
-        <div  class="githubLink">
+        <div class="githubLink">
             <a href="https://github.com/XXXXXie1997/Mo-UI-Demo1">
-                <img src="./logo/github.png" style="max-width: 2em;max-height: 2em">前往GitHub
+                <img src="./logo/github.png" style="max-width: 1.2em;max-height: 1.2em">GitHub
             </a>
         </div>
     </div>
@@ -183,10 +179,15 @@
     .collapseWrapper {
         background: #fff;
     }
-    .githubLink{
+
+    .githubLink {
         position: absolute;
         right: 0;
-        bottom: 0;
+        top: 0;
         margin: 5px;
+        background: #fff;
+        border: 1px solid rgb(60, 63, 65);
+        border-radius: 6px;
+        padding: 2px;
     }
 </style>
