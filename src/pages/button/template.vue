@@ -68,7 +68,7 @@
         content1: `
             <mo-button>默认按键</mo-button>
             <mo-button icon="settings">默认按键</mo-button>
-            <mo-button :loading="true">默认按键</mo-button>
+            <mo-button :loading="true" iconPosition="right">默认按键</mo-button>
             <mo-button disabled>默认按键</mo-button>
         `,
         content2: `
