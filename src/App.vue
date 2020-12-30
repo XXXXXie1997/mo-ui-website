@@ -134,18 +134,18 @@
 
     .header {
         height: 8vh;
-        background: rgb(67, 189, 200);
+        background: rgb(64, 187, 198);
+        border-bottom: 2px solid rgb(22,78,82);
     }
 
     .websiteContent {
         background: rgb(245, 246, 247);
         padding-left: 50px;
-        margin: auto;
         padding-right: 50px;
         padding-top: 40px;
         overflow: auto;
         max-height: 92vh;
-        width: 95vh;
+        width: 100%;
         scrollbar-width: none;
 
     }
@@ -190,4 +190,5 @@
         border-radius: 6px;
         padding: 2px;
     }
+
 </style>
