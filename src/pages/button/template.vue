@@ -31,7 +31,9 @@
         <hr>
 
         <br>
-        <p>> 只是一个普通的按钮,可以接受 <code>icon(String)/iconPosition(String)/disabled(Boolean)/:loading(Boolean)</code>四个参数。</p>
+        <p>> 一个普通的按钮,可以接受
+            <code>icon(String);iconPosition(String);disabled(Boolean)</code>以及 <code>:loading(Boolean)</code>
+            四个参数。</p>
         <br>
         <div class="popoverWrapper">
             <mo-popover position="top">

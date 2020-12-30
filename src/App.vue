@@ -8,8 +8,11 @@
                             <img src="./logo/logo.png">
                         </router-link>
                     </mo-col>
-                    <mo-col span="12"></mo-col>
-                    <mo-col span="8">还没想好要放什么</mo-col>
+                    <mo-col span="18"></mo-col>
+                    <mo-col span="2">
+
+
+                    </mo-col>
                 </mo-row>
             </mo-header>
             <mo-layout>
@@ -20,7 +23,7 @@
                                 <p class="linkWrapper">
                                     <router-link to="install">安装</router-link>
                                 </p>
-                                <p class="lastLinkWrapper">
+                                <p class="linkWrapper">
                                     <router-link to="start">快速上手</router-link>
                                 </p>
                             </mo-collapse-item>
@@ -46,7 +49,7 @@
                                 <p class="linkWrapper">
                                     <router-link to="tabs">tabs-标签页</router-link>
                                 </p>
-                                <p class="lastLinkWrapper">
+                                <p class="linkWrapper">
                                     <router-link to="toast">toast-弹出提示框</router-link>
                                 </p>
                             </mo-collapse-item>
@@ -54,7 +57,7 @@
                     </div>
 
                 </mo-sider>
-                <mo-layout>
+                <mo-layout class="contentArea">
                     <mo-content class="websiteContent">
                         <div class="templateWrapper">
                             <router-view/>
@@ -62,8 +65,12 @@
                     </mo-content>
                 </mo-layout>
             </mo-layout>
-
         </mo-layout>
+        <div  class="githubLink">
+            <a href="https://github.com/XXXXXie1997/Mo-UI-Demo1">
+                <img src="./logo/github.png" style="max-width: 2em;max-height: 2em">前往GitHub
+            </a>
+        </div>
     </div>
 </template>
 
@@ -91,7 +98,7 @@
 
 <style>
     #app {
-        font-family: "Times New Roman", Georgia, serif;
+        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
         font-size: 16px;
     }
 
@@ -99,14 +106,12 @@
         font-size: 14px;
         color: #111;
         text-decoration: none;
+
     }
 
     .linkWrapper {
-        padding-bottom: 20px;
-        padding-left: 8px;
-    }
-    .lastLinkWrapper{
-        padding-left: 8px;
+        padding: 0 12px 8px;
+
     }
 
     a:hover {
@@ -122,7 +127,7 @@
     .websiteLayout {
         min-width: 100vh;
         min-height: 100vh;
-        background: #eee;
+        background: rgb(245, 246, 247);
     }
 
     .sider {
@@ -132,25 +137,30 @@
     }
 
     .header {
-        min-height: 8vh;
+        height: 8vh;
         background: rgb(67, 189, 200);
     }
 
     .websiteContent {
         background: rgb(245, 246, 247);
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 10px;
+        padding-left: 50px;
+        margin: auto;
+        padding-right: 50px;
+        padding-top: 40px;
         overflow: auto;
         max-height: 92vh;
+        width: 95vh;
+        scrollbar-width: none;
+
     }
+
 
     .example {
         margin-left: 8px;
     }
 
     .codeText {
-        font-family: Verdana,serif;
+        font-family: Verdana, serif;
         font-size: 10pt;
         color: rgb(255, 215, 103);
     }
@@ -166,9 +176,17 @@
         box-sizing: border-box;
     }
 
+    *::-webkit-scrollbar {
+        width: 0 !important;
+    }
+
     .collapseWrapper {
         background: #fff;
     }
-
-
+    .githubLink{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        margin: 5px;
+    }
 </style>
