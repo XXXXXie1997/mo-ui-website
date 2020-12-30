@@ -19,7 +19,10 @@
         <div class="codeTextWrapper">
             <pre><code class="codeText">{{content1}}</code></pre>
         </div>
+        <br>
+        <hr>
             <br>
+        <h3>预览：</h3>
         <div class="layoutWrapper">
             <mo-layout class="layoutTemplate-layout">
                 <mo-header class="layoutTemplate-header"> header </mo-header>
@@ -31,7 +34,10 @@
         <div class="codeTextWrapper">
             <pre><code class="codeText">{{content2}}</code></pre>
         </div>
+        <br>
+        <hr>
             <br>
+        <h3>预览：</h3>
         <div class="layoutWrapper">
             <mo-layout class="layoutTemplate-layout">
                 <mo-header class="layoutTemplate-header"> header </mo-header>
