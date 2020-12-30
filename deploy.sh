@@ -14,6 +14,6 @@ git add -A
 git commit -m 'deploy'
 
 
-git push -f github.com/XXXXXie1997:mo-ui-document.git main:gh-pages
+git push -f github.com/XXXXXie1997/mo-ui-document.git main:gh-pages
 
 cd -
