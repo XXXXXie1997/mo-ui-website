@@ -87,7 +87,7 @@
       'mo-col': Col,
     },
     data() {
-      return {selectedTab: []}
+      return {selectedTab: ['1','2']}
     }
   }
 </script>
