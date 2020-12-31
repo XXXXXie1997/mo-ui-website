@@ -1,8 +1,15 @@
 <template>
     <div class="collapseTemplate">
-        <h1>collapse组件</h1>
+        <h1>collapse-折叠面板组件</h1>
         <br>
-        <h3>>注：该组件需要添加一个名为selectedTab的数组以保证正常使用</h3>
+        <p>>注：该组件默认需要传入一个名为selectedTab的数组以保证正常使用。</p>
+        <br>
+        <h3>代码：</h3>
+        <div class="codeTextWrapper">
+            <pre><code class="codeText">{{content}}</code></pre>
+        </div>
+        <br>
+        <hr>
         <br>
         <h3>预览：</h3>
         <div class="collapseWrapper1">
@@ -13,7 +20,7 @@
         </div>
         <h3>代码：</h3>
         <div class="codeTextWrapper">
-            <pre><code class="codeText">{{content}}</code></pre>
+            <pre><code class="codeText">{{content1}}</code></pre>
         </div>
         <br>
         <hr>
@@ -29,7 +36,7 @@
         </div>
         <h3>代码：</h3>
         <div class="codeTextWrapper">
-            <pre><code class="codeText">{{content1}}</code></pre>
+            <pre><code class="codeText">{{content2}}</code></pre>
         </div>
         <br>
     </div>

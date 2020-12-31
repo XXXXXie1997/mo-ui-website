@@ -133,7 +133,7 @@
     }
 
     .header {
-        height: 8vh;
+        min-height: 8vh;
         background: rgb(64, 187, 198);
         border-bottom: 2px solid rgb(22,78,82);
     }

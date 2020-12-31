@@ -1,6 +1,6 @@
 <template>
     <div class="buttonTemplate">
-        <h1>button组件</h1>
+        <h1>button-按钮组件</h1>
 
         <br>
         <h3>预览：</h3>

@@ -1,6 +1,6 @@
 <template>
-    <div class="grid">
-        <h1>Grid组件</h1>
+    <div class="gridTemplate">
+        <h1>Grid-栅格组件</h1>
         <br>
         <p>>通过调整参数span的大小来控制栅格的大小，span的总和为24</p>
         <br>

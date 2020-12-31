@@ -1,5 +1,5 @@
 <template>
-    <div class="install">
+    <div class="installTemplate">
         <h1>如何安装</h1>
         <br>
         <h2>YARN</h2>

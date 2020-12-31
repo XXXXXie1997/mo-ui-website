@@ -1,5 +1,5 @@
 <template>
-    <div class="wrapper">
+    <div class="LayoutTemplate">
         <h1>layout-默认布局</h1>
         <br>
         <p>>以Layout作为容器，通过对Header，Sider，Content，Footer的组合实现布局。</p>

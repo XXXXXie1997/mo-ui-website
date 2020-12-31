@@ -1,5 +1,5 @@
 <template>
-    <div class="index">主页（还没做。。）</div>
+    <div class="indexTemplate">主页（还没做。。）</div>
 </template>
 
 <script lang='js'>

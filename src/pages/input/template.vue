@@ -1,6 +1,6 @@
 <template>
-    <div class="input">
-        <h1>input组件</h1>
+    <div class="inputTemplate">
+        <h1>input-输入框组件</h1>
         <br>
         <h3>可选属性：</h3>
         <p>> error：接收一个String，会在输入框右侧作为错误信息展示。</p>
